@@ -22,7 +22,7 @@ You can view a code walkthough video [here](https://sebastianopperman.github.io/
 - Typescript
 - PostCSS with the following plugins:
 	- Autoprefixer
-	- cssnext
+	- CSSnext
 	- SCSS-like nesting
 
 ## Contributing
