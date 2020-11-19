@@ -6,7 +6,7 @@ Tables represents my ability to build React components with Typescript and PostC
 
 You can view a live demo [here](https://sebastianopperman.github.io/tables).
 
-You can view an code walkthough [here](https://sebastianopperman.github.io/tables).
+You can view a code walkthough video [here](https://sebastianopperman.github.io/tables).
 
 ## How do I use it?
 
