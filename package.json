@@ -1,19 +1,17 @@
 {
-  "name": "prototype",
+  "name": "tables",
   "version": "1.0.0",
-  "description": "Prototype for elements",
-  "main": "index.js",
+  "description": "Tables represents my ability to build React components with Typescript and PostCSS. It contains a `<Table />` component that can be sorted and fed with dynamic data. The table also clips and scrolls when it has too many columns to display.",
+  "main": "index.tsx",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.js",
     "build": "webpack --config webpack.config.js --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sebastian Opperman",
+  "license": "MIT",
   "devDependencies": {
-    "@svgr/webpack": "^5.4.0",
-    "@types/react-router-dom": "^5.1.5",
     "autoprefixer": "^9.8.6",
     "clean-webpack-plugin": "^3.0.0",
     "file-loader": "^6.2.0",
@@ -30,7 +28,6 @@
     "css-loader": "^4.2.0",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
-    "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
