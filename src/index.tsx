@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/app.css';
-import Table from './components/Table';
+import Table from './Table';
 
 const data_1 = [
 	{
