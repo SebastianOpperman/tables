@@ -49,7 +49,7 @@
 }
 
 .sortable {
-	display: flex;
+	display: table-cell;
 	align-items: center;
 	cursor: pointer;
 	transition: opacity .25s ease;
