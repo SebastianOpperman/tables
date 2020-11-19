@@ -1,6 +1,6 @@
 # Tables - Table Component with TSX
 [![GitHub license](https://img.shields.io/github/license/codilation/wordpress-theme-boilerplate)](https://github.com/codiltion/wordpress-theme-boilerplate/blob/master/LICENSE)
-![WordPress Plugin: Required WP Version](https://img.shields.io/wordpress/plugin/wp-version/gutenberg)
+![David](https://img.shields.io/david/SebastianOpperman/tables)
 
 Tables represents my ability to build React components with Typescript and PostCSS. It contains a `<Table />` component that can be sorted and fed with dynamic data. The table also clips and scrolls when it has too many columns to display.
 
