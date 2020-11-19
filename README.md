@@ -22,8 +22,8 @@ You can view a code walkthough video [here](https://sebastianopperman.github.io/
 - Typescript
 - PostCSS with the following plugins:
     - Autoprefixer
+		- CSSNEXT
     - SCSS-like nesting
-		- NextGEN CSS
 
 ## Contributing
 
