@@ -18,7 +18,7 @@ You can view a code walkthough video [here](https://sebastianopperman.github.io/
 
 ## What's in the box?
 
-- Reactt
+- React
 - Typescript
 - PostCSS with the following plugins:
 	- Autoprefixer
