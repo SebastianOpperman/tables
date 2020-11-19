@@ -1,4 +1,4 @@
-# Tables - Table with TSX
+# Tables - Table Component with TSX
 [![GitHub license](https://img.shields.io/github/license/codilation/wordpress-theme-boilerplate)](https://github.com/codiltion/wordpress-theme-boilerplate/blob/master/LICENSE)
 ![WordPress Plugin: Required WP Version](https://img.shields.io/wordpress/plugin/wp-version/gutenberg)
 
