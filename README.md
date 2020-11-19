@@ -4,11 +4,12 @@
 
 Tables represents my ability to build React components with Typescript and PostCSS. It contains a `<Table />` component that can be sorted and fed with dynamic data. The table also clips and scrolls when it has too many columns to display.
 
-You can view a live demo [here](https://sebastianopperman.github.io/tables).
-
-You can view a code walkthough video [here](https://sebastianopperman.github.io/tables).
-
 ## How do I use it?
+
+### Viewing the Demo
+
+- You can view a live demo [here](https://sebastianopperman.github.io/tables).
+- You can view a code walkthough video [here](https://sebastianopperman.github.io/tables).
 
 ### Setting up Tables
 
