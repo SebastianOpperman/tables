@@ -10,6 +10,7 @@ interface Props {
 export default ({data, columns, sortable}: Props) => {
 	const columnKeys = Object.keys(columns);
 
+	// Sort data into correct row order with columns
 	const structuredData = [];
 	data.map(item => {
 		const row = {}
@@ -19,9 +20,11 @@ export default ({data, columns, sortable}: Props) => {
 		structuredData.push(row);
 	});
 
+	// Setup and save sorted data to state
 	const [sorted, setSorted] = useState(structuredData),
 				sort = (column:string) => setSorted([...(sorted.sort((a:any,b:any) => (a[column] > b[column]) ? 1 : -1))]);
 	
+	// Renders star emojis
 	const renderRating = rating => {
 		switch(rating) {
 			case 1: return '⭐';
@@ -32,6 +35,7 @@ export default ({data, columns, sortable}: Props) => {
 		}
 	}
 
+	// Renders appropriate flag
 	const renderCountry = country => {
 		switch(country) {
 			case 'Canada': return '🇨🇦';
@@ -40,6 +44,7 @@ export default ({data, columns, sortable}: Props) => {
 		}
 	}
 
+	// Determine what to render in a cell
 	const renderCell = (cell, k) => {
 		switch(columnKeys[k]) {
 			case 'country':
